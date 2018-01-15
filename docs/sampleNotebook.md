@@ -1,7 +1,7 @@
 Sample R Notebook
 ================
 Christopher Prener, Ph.D.
-January 14, 2018
+(January 14, 2018)
 
 Introduction
 ------------
