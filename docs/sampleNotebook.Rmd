@@ -2,7 +2,9 @@
 title: "Sample R Notebook"
 author: "Christopher Prener, Ph.D."
 date: '(`r format(Sys.time(), "%B %d, %Y")`)'
-output: github_document
+output: 
+  github_document: default
+  html_notebook: default 
 ---
 
 ## Introduction
