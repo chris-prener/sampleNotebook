@@ -86,6 +86,20 @@ ggplot(data = mpg, mapping = aes(hwy)) +
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I* (on an Apple computer).
 
+If questions ask you to create "publication ready" plots, make sure you save them to the results directory of your assignment's project:
+
+``` r
+plot <- ggplot(data = mpg, mapping = aes(hwy)) +
+          geom_histogram(bins = 28) +
+          labs(
+            title = "Histogram of Highway Fuel Efficiency",
+            xlab = "highway fuel efficiency (miles per gallon)"
+          )
+ggsave("results/q1.png", plot)
+```
+
+    ## Saving 7 x 5 in image
+
 ### Question 2
 
 Question two asks for descritive statistics, which we can obtain using the `skimr()` function:
