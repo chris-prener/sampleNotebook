@@ -22,7 +22,7 @@ Since our notebook resides in a subdirectory of the R project called `doc`, all 
 General Notebook Structure
 --------------------------
 
-Up above the introduction is a [`YAML`](https://en.wikipedia.org/wiki/YAML) header that contains, by default, fields for `title` and `output`. Make sure you change the `output` from `html_notebook` to `github_document` for each assignment. Also be sure to add in and fill out the `author` and `date` fields. The `date` field function can be inserted into every document without change. When your notebook is "knit", it will always insert the current date.
+Up above the introduction is a [`YAML`](https://en.wikipedia.org/wiki/YAML) header that contains, by default, fields for `title` and `output`. Make sure you change the `output` from only saying `html_notebook` to also including `github_document` for each assignment. Both output types should be noted as `default`. Also be sure to add in and fill out the `author` and `date` fields. The `date` field function can be inserted into every document without change. When your notebook is "knit", it will always insert the current date.
 
 I recommend using second level headings (`##`) for major sections, such as the different parts of each assignment. For each question, use a third level heading (`###`).
 
